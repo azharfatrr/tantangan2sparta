@@ -1,3 +1,2 @@
 # Al-Quran
-
-Silahkan buka di link berikut :
+Download semua file, lalu buka file index.html di browser :)
