@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+	background-color:#ffffff;
+	color:#555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+
+
+}
+
+header{
+    background-color: #555555;
+    color: #f4f4f4;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: #555555;
+    color: #f4f4f4;
+    width: 80%;
+    margin: auto;
+    box-sizing: content-box;
+    overflow:hidden;
+    padding-top: 5px;
+}
+
+footer p{
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+header .container_header{
+    background-color: #555555;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+body .container{
+    background-color:#f4f4f4;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main{
+	float:right;
+	width:80%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:left;
+	width:20%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 5px ;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray ;
+}
+
+#nama_surat{
+    font-size: 25px;
+}
+
+h3{
+    text-align: center;
+    margin: 10px 5px ;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray ;
+}
+
+ol{
+    text-align: center;
+    
+}
+
+li{
+    text-align: left;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+li:hover{
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#output{
+    border:3px solid gray;
+	padding:10px;
+	margin: 10px 0;
+}
+
+.box{
+    text-align: center;
+    margin: 10px;
+}
+.arab{
+    font-size: 30px;
+    padding: 10px;
+}
+.indonesia{
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom:2px dotted gray ;
+}
+.arab b{
+    font-size: 60%;
+}
+
