@@ -72,6 +72,7 @@ h1{
     border-bottom: 2px solid gray ;
 }
 
+
 #nama_surat{
     font-size: 25px;
 }
@@ -108,10 +109,11 @@ li:hover{
 
 .box{
     text-align: center;
-    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 .arab{
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px;
 }
 .indonesia{

@@ -35,7 +35,9 @@ async function tampilDaftarSurat() {
 async function suratDefault() {
     metaSurat = await getSurat(1)
     metaTerjemah = await getTerjemah(1)
+
     tampilSurat(metaSurat,metaTerjemah)
+
 }
 
 function pilihSurat() {
@@ -51,13 +53,14 @@ function pilihSurat() {
             metaSurat = await getSurat(noSurat)
             metaTerjemah = await getTerjemah(noSurat)
 
-
             tampilSurat(metaSurat,metaTerjemah)
         })
     } 
 }
 
 async function tampilSurat(metaSurat,metaTerjemah) {
+    try {
+
     const ayahs = await metaSurat.data.ayahs;
     const terjemahs = await metaTerjemah.data.ayahs;
 
@@ -76,6 +79,13 @@ async function tampilSurat(metaSurat,metaTerjemah) {
         </div>`
     }
     document.getElementById('output').innerHTML = output;
+    window.location.hash = "main-header";
+    }
+    catch{
+        let output = '<div id="loader">Pilih Surat terlebih dahulu</div> '
+        document.getElementById('output').innerHTML = output;
+        document.getElementById("nama_surat").innerText = `Silahkan pilih Surat`
+    }
 }
 
 suratDefault()
