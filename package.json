@@ -1,0 +1,19 @@
+{
+  "name": "al-quran",
+  "version": "1.0.0",
+  "description": "Download semua file, lalu buka file index.html di browser :)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azharfatrr/Al-Quran.git"
+  },
+  "author": "M Azhar Faturahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azharfatrr/Al-Quran/issues"
+  },
+  "homepage": "https://github.com/azharfatrr/Al-Quran#readme"
+}
