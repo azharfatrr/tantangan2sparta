@@ -1,19 +1,19 @@
 const loader = document.getElementById('loader')
 
 async function getSurat(noSurat) {
-    const response = await fetch(`http://api.alquran.cloud/v1/surah/${noSurat}`)
+    const response = await fetch(`https://api.alquran.cloud/v1/surah/${noSurat}`)
     const data = await response.json()
     return data
 }
 
 async function getTerjemah(noSurat) {
-    const response = await fetch(`http://api.alquran.cloud/v1/surah/${noSurat}/id.indonesian`)
+    const response = await fetch(`https://api.alquran.cloud/v1/surah/${noSurat}/id.indonesian`)
     const data = await response.json()
     return data
 }
     
 async function getDaftarSurat() {
-    const response = await fetch('http://api.alquran.cloud/v1/surah')
+    const response = await fetch('https://api.alquran.cloud/v1/surah')
     const data = await response.json()
     return data
 } 
