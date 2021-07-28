@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/azharfatrr/Al-Quran/issues"
   },
-  "homepage": "https://github.com/azharfatrr/Al-Quran#readme"
+  "homepage": "https://github.com/azharfatrr/Al-Quran#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

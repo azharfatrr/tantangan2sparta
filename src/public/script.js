@@ -79,7 +79,7 @@ async function tampilSurat(metaSurat,metaTerjemah) {
         </div>`
     }
     document.getElementById('output').innerHTML = output;
-    window.location.hash = "main-header";
+    window.location.hash = metaSurat.data.englishName;
     }
     catch{
         let output = '<div id="loader">Pilih Surat terlebih dahulu</div> '
