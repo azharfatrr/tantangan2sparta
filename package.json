@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon ./src/main.js",
     "prod": "pm2 start ./src/main.js --watch --name alquran",
-    "start": "node ./src/main.js"
+    "start": "node ./src/main.js",
+    "build:azure": "node ./src/main.js"
   },
   "repository": {
     "type": "git",
